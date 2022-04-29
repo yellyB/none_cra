@@ -1,0 +1,27 @@
+{
+  "name": "none_cra",
+  "version": "1.0.0",
+  "description": "CRA를 사용하지 않고 프로젝트 설정하기",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/js -w -d dist/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yellyB/none_cra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yellyB/none_cra/issues"
+  },
+  "homepage": "https://github.com/yellyB/none_cra#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
